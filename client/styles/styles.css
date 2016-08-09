@@ -54,9 +54,12 @@ form {
 
 form input[type=text] {
     margin-right: 10px;
-    width: 70%;
     font-size: 12px;
     padding: 5px;
+}
+
+.form-inline .form-control {
+    width: 80%;
 }
 
 .chat {
