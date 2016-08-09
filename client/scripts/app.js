@@ -116,10 +116,10 @@ app.eventHandlers = function() {
 };
 
 app.init = function() {
-  $( document ).ready(function() {
+  $(document).ready(function() {
     app.fetch();
     app.eventHandlers();
-    window.setInterval(app.fetch, 5000);
+    window.setInterval(app.fetch, 3000);
   });
 };
 
